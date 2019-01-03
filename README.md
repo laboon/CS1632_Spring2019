@@ -1,2 +1,2 @@
-# CS1632_Spring2019
-CS1632 Spring 2019 w/ Bill Laboon
+# CS1632_Fall2018
+CS1632 Software Quality Assurance, Fall 2018
