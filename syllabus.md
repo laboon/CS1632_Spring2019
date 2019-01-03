@@ -33,22 +33,23 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 * (Class 1) Smoke, Exploratory, and Path-Based Testing
   * READING: AFIST, Chapter 11
   
-* (Class 2) 
-
 ## Week 4 (Week of 28 JAN):
 
-* (Class 1) Intro to Ruby, cont'd
-  * READING: WPGR, Chapter 5-6
+* (Class 1) Intro to Ruby
+  * READING: WPGR, Chapter 1-4
 
-* (Class 2) Ruby Exercise
-  * EXERCISE 1
-  * DUE: D1
+* (Class 2) Intro to Ruby, cont'd
+  * READING: WPGR, Chapter 5-6
 
 ## Week 5 (Week of 4 FEB):
 
-* (Class 1) Manual vs Automated Testing, Static Analysis
-  * READING: AFIST, Chapter 12
+* (Class 1) Ruby Exercise
+  * EXERCISE 1
+  * DUE: D1
   * ASSIGNED: D2
+
+* (Class 2) Manual vs Automated Testing, Static Analysis
+  * READING: AFIST, Chapter 12
 
 ## Week 6 (Week of 11 FEB):
 
