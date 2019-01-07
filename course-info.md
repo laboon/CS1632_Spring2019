@@ -20,7 +20,7 @@ Software Quality Assurance - Spring 2019
 **TA**:
   * Mon/Wed 11:00 AM- 12:15 PM Tianyi Cui (GitHub username `TyaCUI`)
   * Mon/Wed 1:00 PM - 2:15 PM Akhil Yendluri (GitHub username _TBD_)
-  * Mon/Wed 9:30 AM - 10:45 AM Xiaoyu Liang (GitHub username _TBD_)
+  * Mon/Wed 9:30 AM - 10:45 AM Xiaoyu Liang (GitHub username `Grade-CS1632`)
 
 _Note: The TA for the course acts as a grader.  If you have questions on the topics themselves, please email the instructor._
 
