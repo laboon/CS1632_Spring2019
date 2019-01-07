@@ -15,13 +15,14 @@ Software Quality Assurance - Spring 2019
 **Class Time:**
   * Mon/Wed 11:00 AM- 12:15 PM (203 Lawrence Hall)
   * Mon/Wed 1:00 PM - 2:15 PM (5129 Sennott Square)
-  * Mon/Wed 9:30 AM - 10:45 AM (405 IS Building)
+  * Mon/Wed 9:30 AM - 10:45 AM (405 IS Building) 
 
 **TA**:
+  * Mon/Wed 11:00 AM- 12:15 PM Tianyi Cui (GitHub username `TyaCUI`)
+  * Mon/Wed 1:00 PM - 2:15 PM Akhil Yendluri (GitHub username _TBD_)
+  * Mon/Wed 9:30 AM - 10:45 AM Xiaoyu Liang (GitHub username _TBD_)
 
-* TBD, GitHub username: `` 
-
-_Note: The TA for this course acts as a grader.  If you have questions on the topics themselves, please email the instructor._
+_Note: The TA for the course acts as a grader.  If you have questions on the topics themselves, please email the instructor._
 
 **Class GitHub repo:** https://www.github.com/laboon/CS1632_Spring2019
 
@@ -69,11 +70,11 @@ Score  | Grade
 62.99-60.00  | D-
 59.99-0.00   | F
 
-All groups are expected to do their own work on the group projects, and students to do entirely their own work on the other projects.  Projects may be analyzed with the Stanford _moss_ system to detect unauthorized collaboration between groups or individuals.  Any student caught collaborating or cheating will automatically receive a 0 (zero) for that exam, and may be penalized more harshly based on University of Pittsburgh academic policy.
+All groups are expected to do their own work on the group projects, and students to do entirely their own work on the other projects.  Projects may be analyzed with the Stanford _moss_ system to detect unauthorized collaboration between groups or individuals.  Any student caught collaborating or cheating will, at a minimum, automatically receive a 0 (zero) for that exam or project, and may be penalized more harshly based on University of Pittsburgh academic policy.
 
 Assignments should be committed and pushed to GitHub to _a private repository_ and shared with the TA and me by the beginning of class on the due date.  Write-ups are due at the beginning of class and must be given to me in person.  Write-ups must be PRINTED OUT and handed in.
 
-Late assignments may be turned in one class late, but you will receive a -15 percentage point penalty (e.g., if you would have received a 90 on an assignment, but you turned it in late, you would receive 90 - 15 = 75%.)
+Late assignments may be turned in one class late, but you will receive a -15 percentage point penalty (e.g., if you would have received a 90% on an assignment, but you turned it in late, you would receive 90 - 15 = 75%.)
 
 Please ensure that you have a student GitHub account so that you can make private repositories.  This is free and available here: https://education.github.com/
 
@@ -83,7 +84,7 @@ It is recommended you keep all of your graded assignments until final grades are
 
 ## Attendance
 
-Lecture attendance is not required, but is STRONGLY recommended. The instructor will try to ensure that all information on the exams and projects will be available via slides, but simply reading the slides and textbook may be insufficient to understand the concepts thoroughly.  In addition, there are several topics and tools which are not included in the textbook.
+Lecture attendance is not required, but is STRONGLY recommended. The instructor will try to ensure that all information on the exams and projects will be available via slides, but simply reading the slides and textbook may be insufficient to understand the concepts thoroughly.  In addition, there are several topics and tools which are not included in the textbook but are covered in class.
 
 ## Project Details
 
@@ -94,7 +95,7 @@ Lecture attendance is not required, but is STRONGLY recommended. The instructor 
 
 ## Exam Details
 
-There will be two midterm examinations, each worth 15% of your grade.
+There will be two midterm examinations, each worth 15% of your grade.  A study guide will be posted approximately one week before each exam.
 
 ## Programming Language Selection
 
