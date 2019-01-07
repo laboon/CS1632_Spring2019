@@ -15,12 +15,12 @@ Software Quality Assurance - Spring 2019
 **Class Time:**
   * Mon/Wed 11:00 AM- 12:15 PM (203 Lawrence Hall)
   * Mon/Wed 1:00 PM - 2:15 PM (5129 Sennott Square)
-  * Mon/Wed 9:30 AM - 10:45 AM (405 IS Building) 
+  * Tue/Thu 9:30 AM - 10:45 AM (405 IS Building) 
 
 **TA**:
   * Mon/Wed 11:00 AM- 12:15 PM Tianyi Cui (GitHub username `TyaCUI`)
   * Mon/Wed 1:00 PM - 2:15 PM Akhil Yendluri (GitHub username _TBD_)
-  * Mon/Wed 9:30 AM - 10:45 AM Xiaoyu Liang (GitHub username `Grade-CS1632`)
+  * Tue/Thu 9:30 AM - 10:45 AM Xiaoyu Liang (GitHub username `Grade-CS1632`)
 
 _Note: The TA for the course acts as a grader.  If you have questions on the topics themselves, please email the instructor._
 

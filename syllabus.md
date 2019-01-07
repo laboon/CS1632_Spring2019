@@ -86,39 +86,38 @@ WPGR = _Why's (Poignant) Guide to Ruby_
 
 ## Week 10 (Week of 11 MAR):
 
+__NO CLASS - SPRING BREAK__
+
+## Week 11 (Week of 18 MAR):
+
 * (Class 1) Intro to Sinatra and System Testing
   * ASSIGNED: D3
 
 * (Class 2) Web-Based System Testing
   * EXERCISE 5
 
-## Week 11 (Week of 18 MAR):
+## Week 12 (Week of 25 MAR):
 
 * (Class 1) Performance Testing
   * READING: Chapter 19
 
-* (Class 2) Performance Testing, cont'd.
-
-## Week 12 (Week of 25 MAR):
-
-* (Class 1) Performance Testing and Optimization
-  * DUE: D3
-  * ASSIGNED: D4
+* (Class 2) Performance Testing and Optimization
   * EXERCISE 6
+
+## Week 13 (Week of 1 APR):
 
 * (Class 1) Stochastic, Fuzz, and Property-Based Testing
   * READING: AFIST, Chapter 18
-
-## Week 13 (Week of 1 APR):
+  * DUE: D3
+  * ASSIGNED: D4
 
 * (Class 1) Property-Based Testing with Rantly
   * EXERCISE 7
 
-* (Class 2) QA Strategy
 
 ## Week 14 (Week of 8 APR):
 
-* (Class 1) Interacting With Stakeholders
+* (Class 1) QA Strategy and Interacting With Stakeholders
   * READING: AFIST, Chapter 21
 
 * (Class 2) MIDTERM 2
