@@ -5,7 +5,7 @@ Spring Semester 2019
 
 * DUE: 4 FEB 2019 (MW), 5 FEB 2019 (TH)
 
-* LATE DUE DATE (-15): 6 FEB 2019 (MW), 8 FEB 2019 (TH)
+* LATE DUE DATE (-15): 6 FEB 2019 (MW), 7 FEB 2019 (TH)
 
 ## Deliverable 1
 
@@ -15,7 +15,9 @@ The JBefunge IDE repository is here: https://github.com/laboon/JBefunge
 
 Time will be given in class to group yourself into groups.  There should be two and only two members of a group.
 
-There should be, at an absolute bare minimum, twice as many test cases as requirements, although I would normally expect several test cases per requirement.   Note that this DOES not mean that having two However, if the average (mean) number of test cases is more than 4x the number of requirements, you are probably overtesting for our purposes.
+There should be, at an absolute bare minimum, twice as many test cases as requirements, although I would normally expect several test cases per requirement.   Note that this DOES not mean that having exactly two test cases is necessary.  It also does not mean that you should endeavour to have the bare minimum number of test cases and expect a perfect score.  Anything below this number of test cases will not be considered an adequate test plan for this assignment.
+
+Conversely, however, if the average (mean) number of test cases is more than 4x the number of requirements, you are probably overtesting for our purposes.  Your goal is to get sufficient test coverage of the program at a level necessary to determine quality, not to exhaustively test the program.
 
 There are ten requirements.  You should split this up into two sections of the test plan and LABEL each section with which team member worked on that section.  Assuming there are no disparities in the quality of the test plans, you will receive a single grade for the group.  If there are disparities, then each member of the group will get a different grade for the test plan.  I recommend that you work together on developing the test plan, or at a minimum, double-checking your partner's work.  It is up to you how you would like to split the requirements, but I do require you to label the different sections of the test plan with who did which part.
 
