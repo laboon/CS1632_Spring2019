@@ -50,7 +50,7 @@ There should be a short introduction (a few paragraphs) in which you may note an
 This should be followed ON A NEW PAGE by the list of test cases.  You may name or number them any way you wish, but be consistent.  You should write them out in this format -
 
 	IDENTIFIER:
-	TEST CASE: 
+	DESCRIPTION: 
 	PRECONDITIONS:
 	EXECUTION STEPS:
 	POSTCONDITIONS:
