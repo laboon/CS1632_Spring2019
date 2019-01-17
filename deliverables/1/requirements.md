@@ -17,5 +17,5 @@ FUN-TIME - If the "Options..Time program" option is checked, then after program 
 
 FUN-TRACE - If and only if a program is being executed, the system shall display a cursor on the current opcode indicating that is being executed.  This cursor should start displaying immediately after starting execution of a program on the first opcode, and will do so no matter if started via Run, Walk, Mosey, or Step.  It shall not appear when a program is not being executed.
 
-PERF-EXECUTION-TIME - On any given computer, the system shall be able to complete execution of a reference FizzBuzz implementation (i.e., the one listed in the README.md file of the JBefunge repository), in less than 30 seconds (30,000,000 microseconds). 
+PERF-EXECUTION-TIME - On any given computer, the system shall be able to complete execution of a reference FizzBuzz implementation (i.e., the one listed in the README.md file of the JBefunge repository), in less than 30 seconds (30,000,000 microseconds) using the "Run" command (as opposed to "Walk" or "Mosey"). 
 
