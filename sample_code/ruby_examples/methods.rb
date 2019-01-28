@@ -40,7 +40,6 @@ double_yay "Jane", "Jill"
 def laboonify(a, b)
   puts "Laboonifying #{a} and #{b}"
   a * 2 + b
-  return a, b
 end
 
 b = laboonify 1, 2

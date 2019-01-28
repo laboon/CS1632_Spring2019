@@ -13,9 +13,11 @@ likes_hoodies = true # TrueClass - Booleans are a little weird in Ruby!
 # Ruby is dynamically typed - types are inferred at runtime
 # Note there is nothing stopping us from doing the following:
 
+my_age = "poodle"
 my_age = 39
 
 # This will print out (PUT String) the class of the my_age object
+puts my_age
 puts my_age.class # Will print out Integer
 
 my_age = "XXXIX"
@@ -23,6 +25,7 @@ my_age = "XXXIX"
 # my_age used to store an Integer, but now it stores a String
 # This is actually very dangerous and a common cause of issues in complex
 # Ruby programs!  You send an Integer when it expects a Float, for instance.
+puts my_age
 puts my_age.class # Will now print out String
 
 # Arithmetic operates generally as you expect from Java
@@ -40,9 +43,16 @@ puts c / b # prints 1
 # float f = (float) a / b;
 # In Ruby, can convert to Float with .to_f
 # can convert to Integer with .to_i
+puts "-" * 20
 puts c / b # prints out 1
 puts c.to_f / b # prints 1.5
 puts c % 2 # prints 1
+
+# Arbitrary precision
+
+large_var = 999999999999999999999999999999999999999999999999999999999999 * 9999999999999999999999999999999999999999999999
+
+puts "(#{a.to_f}) large var is #{large_var}"
 
 # There are no ++ or -- operators - use "a += 1"
 # a-- would result in a syntax error
@@ -60,12 +70,14 @@ puts nil.class # prints NilClass
 # Convert to Float
 puts my_dog.to_f # prints 0.0
 
+puts (0.0 == nil)
+
 # Arrays are just like any other object and have numerous helper methods
 
-good_birds = ["Jazzy", "Tonic", "Ton-Dog", "Method"]
+good_birds = ["Jazzy", "Tonic", "Ton-Dog", "Method", nil, 99, 32.0]
 num_good_birds = good_birds.count # returns number of elements in array
 puts "Number of good birds = #{num_good_birds}"
-puts "Even more good birds = #{num_good_birds + (100.to_f / 2 - 6)}"
+puts "Even more good birds = #{num_good_birds + 100}"
 
 # Ranges are a set of values from one number to another
 num_range = 1..10
