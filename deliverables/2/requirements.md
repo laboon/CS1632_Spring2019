@@ -28,7 +28,7 @@ Enumerable Canyon ---- Duck Type Beach
 
 8. A prospector shall prospect until they have visited the number of locations indicated by the third argument, `number of turns`.  This may include "repeats" - for example, a prospector who went to Enumerable Canyon, Duck Type Beach, Matzburg, Duck Type Beach, Enumerable Canyon has visited five locations, even though they visited only three unique locations.
 
-9. Prospectors shall find the following amounts of gold and silver at each iteration at each location.  Note that the numbers indicated are a maximum.  Prospectors shall find between 0 and the maximum number rubies or fake rubies (using a continuous distribution - e.g., if the maximum is 2, then a prospector should have an equal chance of finding 0, 1, or 2 rubies) per iteration.
+9. Prospectors shall find the following MAXIMUM amounts of rubies and fake rubies at each iteration at each location.  Note that the numbers indicated are a maximum.  Prospectors shall find between 0 and the maximum number rubies or fake rubies (using a continuous distribution - e.g., if the maximum is 2, then a prospector should have an equal chance of finding 0, 1, or 2 rubies) per iteration.
 
 ```
 Location          | Max Rubies | Max Fake Rubies

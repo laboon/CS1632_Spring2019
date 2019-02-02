@@ -157,20 +157,20 @@ require_relative 'baz_test'
 
 Running `all_tests.rb` will now give you coverage statistics for the entire project.
 
-Note - do not do SimpleCov.start in foo_test, bar_test, etc. Just one time in main_test!
+Note - do not execute `SimpleCov.start` in each individual test file (e.g. foo_test, bar_test, etc.).  Just one time in `all_tests.rb`!
 
 If you are getting different results each time you run, make sure that you are not exit-ing in the middle of your production code. This will cause minitest to end its run. Since tests are run in pseudorandom order, your test suite will end as soon as exit is called, meaning you will get wildly varying results each time depending on when the test case which calls the exiting method is run.
 
 ## Grading
 I remind you that grammar and good code count as well as functionality.  By good code, I mean: no commented-out code unless there's an EXPLICIT reason, properly indented code, no misspelled words or bad grammar, in comments or summaries, etc.
 
-The program must be run by typing `ruby gold_rush.rb *seed* *number of prospectors* *num_turns*`  at the command line.  Be sure that you are running Ruby 2.5.0 or later!
+The program must be run by typing `ruby ruby_rush.rb *seed* *number of prospectors* *num_turns*`  at the command line.  Be sure that you are running Ruby 2.5.0 or later!
 
 The unit tests must be run by typing the following at the command line: `ruby all_tests.rb`.  `all_tests.rb` should require_relative any class-based test files that you use and run them as well.  All tests should be run by this one command.
 
-You may ignore the main `gold_rush.rb` file IF AND ONLY IF it has 20 or fewer lines of code.  This will be very useful when developing your tests (and your program), so I recommend you think about how to minimize the number of lines (and maximize the usefulness of this "get out of jail free") in `gold_rush.rb`.
+You may ignore the main `ruby_rush.rb` file IF AND ONLY IF it has 20 or fewer lines of code.  This will be very useful when developing your tests (and your program), so I recommend you think about how to minimize the number of lines (and maximize the usefulness of this "get out of jail free") in `ruby_rush.rb`.
 
-You will lose points if the program itself runs when I try to run the tests.  If you are having trouble with this, remember that any code that you require by a test file will be run.  Having a very small "main" file, which "require_relatives" many files that only have classes, will help you avoid this situation - you can then just test the individual class files and treat the `gold_rush.rb` file as an untested `public static void main`.
+You will lose points if the program itself runs when I try to run the tests.  If you are having trouble with this, remember that any code that you require by a test file will be run.  Having a very small "main" file, which "require_relatives" many files that only have classes, will help you avoid this situation - you can then just test the individual class files and treat the `ruby_rush.rb` file as an untested `public static void main`.
 
 Unlike D1, you do NOT need to precisely line up requirements with test cases or develop a traceability matrix, but requirements are still useful for doing exploratory testing of your finished product.
 
@@ -180,7 +180,7 @@ Unlike D1, you do NOT need to precisely line up requirements with test cases or 
 * Program Functionality - 45%
 * Test Code (including statement coverage) - 45%
 * [-2 for every Rubocop error past 3, up to -10]
-* [-1 for each percentage point of statement coverage below 90%, possibly excluding gold_rush.rb]
+* [-1 for each percentage point of statement coverage below 90%, possibly excluding ruby_rush.rb]
 * [-5 for each non-trivial unit test less than 16]
 
 Please feel free to email me or come to office hours to discuss any problems you have.
