@@ -1,6 +1,8 @@
 # CS 1632 - Software Quality Assurance
 Spring Semester 2019
 
+**DUE: March 4 (MW class) or 5 (TH class) / Late (-15) March 6 (MW class) or 7 (TH class)**
+
 ## Deliverable 2
 
 For this assignment, you (NOT with a partner)  will write code and unit tests for Ruby Rush, a simulator of prospectors hunting for rubies.  Be careful though, for there are also fake rubies about!
