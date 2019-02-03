@@ -53,6 +53,8 @@ Dynamic Palisades |    2       |    2
 
 14. The simulation shall run the number of times indicated by the second argument to the program, `number of prospectors`.  Prospectors shall be named "Rubyist #n" where n is their number, starting with #1 (there shall be no Rubyist #0).
 
-15. After a prospector has completed the `number of turns` iterations, they shall "go home", ending the conversation.  At this point, the simulator shall indicate one of three messages, based on the number of rubies they have found: "Going home victorious!" if they have found ten (10) or more rubies, "Going home sad." if they have found between one (1) and nine (9) rubies, and "Going home empty-handed." if they have found zero (0) rubies.  Fake rubies are not counted as rubies and shall be ignored for these calculations.
+14. A "day" shall be defined as one search for rubies.  A prospector may have multiple days in a single location.  However, a prospector will always spend a minimum of one day at a locations searching for rubies.
+
+15. After a prospector has completed the `number of turns` iterations, they shall "go home", ending the simulation for that prospector.  At this point, the simulator shall first indicate how many days the prospector was searching for rubies.  It shall then indicate one of three messages, based on the number of rubies they have found: "Going home victorious!" if they have found ten (10) or more rubies, "Going home sad." if they have found between one (1) and nine (9) rubies, and "Going home empty-handed." if they have found zero (0) rubies.  Fake rubies are not counted as rubies and shall be ignored for these calculations.
 
 16. Output shall be as close as possible to that displayed in the `sample_output.txt` file in this directory.  This file shall be used to resolve any ambiguities in these requirements.
