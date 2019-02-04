@@ -2,7 +2,7 @@
 
 2. The program shall create all pseudorandom numbers from the seed passed in as an integer argument to the program (as explained in requirement 1).  Thus, the system is entirely deterministic and thus repeatable with the same arguments.
 
-3. The seven locations on the map shall be as follows: Sutter Creek, which connects to Duck Type Beach and Monkey Patch City; Duck Type Beach, which connects to Enumerable Canyon and Matzburg; Monkey Patch City, which connects to Nil Town, Enumerable Canyon, and Matzburg; Nil Town, which connects to Monkey Patch City and Hash Crossing; Matzburg, which connects to Monkey Patch City, Duck Type Beach, Hash Crossing, and Dynamic Palisades; Hash Crossing, which connects to Matzburg, Nil Town, and Dynamic Palisades; and Dynamic Palisades, which connects to Matzburg and Hash Crossing.  It may be easier to view a graphical depiction of the map:
+3. The seven locations on the map shall be as follows: Enumerable Canyon, which connects to Duck Type Beach and Monkey Patch City; Duck Type Beach, which connects to Enumerable Canyon and Matzburg; Monkey Patch City, which connects to Nil Town, Enumerable Canyon, and Matzburg; Nil Town, which connects to Monkey Patch City and Hash Crossing; Matzburg, which connects to Monkey Patch City, Duck Type Beach, Hash Crossing, and Dynamic Palisades; Hash Crossing, which connects to Matzburg, Nil Town, and Dynamic Palisades; and Dynamic Palisades, which connects to Matzburg and Hash Crossing.  It may be easier to view a graphical depiction of the map:
 
 ```
 Nil Town-----------------------------
