@@ -2,7 +2,7 @@
 # In Ruby, though, all variables hold objects.  There are no "primitives" like
 # int, char, etc.
 # Variables are case-sensitive.  FOO, fOo, and foo are all different variables.
-# Variables are generally snake_case (all lowercase, words separated by underscores)
+# Variables are generally snake_case (all lowercase, words separated by underscores) as opposed to camelCase (billDogs)
 # Use single-equals (=) for assignment, double-equals (==) for comparison
 
 my_name = "Bill" # String
@@ -43,16 +43,21 @@ puts c / b # prints 1
 # float f = (float) a / b;
 # In Ruby, can convert to Float with .to_f
 # can convert to Integer with .to_i
+
 puts "-" * 20
+# Reminder - c = 3, b = 2
 puts c / b # prints out 1
 puts c.to_f / b # prints 1.5
 puts c % 2 # prints 1
 
 # Arbitrary precision
 
-large_var = 999999999999999999999999999999999999999999999999999999999999 * 9999999999999999999999999999999999999999999999
+large_var = 999999999999999999999999999999999999999999999999999999999999 * 9999999999999999999999999999999999999999999999 * 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 
-puts "(#{a.to_f}) large var is #{large_var}"
+puts "large var is " + large_var.to_s
+
+puts "(#{a.to_f / 2}) large var is #{large_var}"
+puts 'Here is how that looks: (#{a.to_f / 2}) large var is #{large_var}'
 
 # There are no ++ or -- operators - use "a += 1"
 # a-- would result in a syntax error
@@ -103,11 +108,11 @@ puts num_range_arr
 # Integer (id number) -> Cat
 # Course -> Instructor
 
-instructors = Hash::new
+instructors = Hash.new
 instructors["CS1632"] = "Laboon"
 instructors["CS1530"] = "Chang"
 instructors["CS1501"] = "Farnan"
-a1502_instructors = Hash::new
+a1502_instructors = Hash.new
 a1502_instructors["class1"] = "Tan"
 a1502_instructors["class2"] = "Max"
 instructors["CS1502"] = a1502_instructors

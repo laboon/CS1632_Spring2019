@@ -15,6 +15,8 @@ All code and tests should be on GitHub in a private repository accessible to the
 
 Your repository MUST be named D2.
 
+If you are not familiar with git and GitHub, please review the presentation and exercises here: https://github.com/laboon/friendly_introduction_git.  Feel free to let me know if you have any questions.
+
 ## Format
 You should turn in (hard-copy at the beginning of class) a title page with:
 
