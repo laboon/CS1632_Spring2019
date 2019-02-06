@@ -1,0 +1,67 @@
+Grading Rubric for D1
+
+* Introduction: 10% of grade
+
+Concerns and/or difficulties listed:                 ____ / 5
+  * At least one issue raised (-5 if no)
+
+Clearly written:                                     ____ / 5
+  * No typos / misspellings / etc
+  * Understandable to reader (incl. clear sentence structure)
+
+* Test Plan: 45% of grade
+
+Test cases are valid                                 ____ / 10
+  * Include all elements
+    * Identifier
+    * Preconditions
+    * Execution steps
+    * Postconditions
+
+Test cases include only EXPECTED
+behavior, not OBSERVED behavior:                     ____ / 10
+  * No "pass/fail" etc. written
+  * Postconditions = what SHOULD happen, not what DOES
+  * Test correct (expected) behavior
+
+Expected behavior and execution
+steps are SPECIFIC:                                  ____ / 15
+  * No generalities (e.g. "enter a letter"; should be "enter X")
+  * Tester could easily reproduce steps
+
+At least three edge cases:                           ____ / 5
+  * Valid edge cases and labeled
+  
+Clearly written:                                     ____ / 5
+  * No typos, misspellings, etc. (-1 for each)
+  * Easy to understand and follow
+
+* Traceability Matrix: 10% of grade
+
+Each requirement & TC listed:                        ____ / 5
+  * TCs actually map to requirement
+  
+>= 1 Test case per requirement, and
+exactly 1 requirement per TC:                        ____ / 5
+  * No TC maps to > 1 req, each req has at least 1 TC
+
+* Defects and Enhancements Found and Described: 35% of grade
+
+Must be >= 3 defects! -10 for each missing one.
+
+Defects are Reproducible:                            ____ / 10  
+  * Specific steps to repro listed
+  
+Include expected/observed behavior:                  ____ / 10
+  * Must include BOTH
+
+Enhancement included:                                _____ / 10
+  * Is an enhancement, not a defect
+  * Is a reasonable, well-defined request
+
+Clearly written:                                     ____ / 5
+  * No typos, misspellings, etc.
+  * Reader can understand issue
+  * Follows proper format
+
+Total:                                               ____ / 100
