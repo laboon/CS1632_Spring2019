@@ -70,7 +70,7 @@ raise "Enter integers for size, percentage (1..100), and number of iterations at
 size, percent, iters = ARGV[0].to_i, ARGV[1].to_i, ARGV[2].to_i
 
 
-# All of these can be done
+# All of these can be done in one line.
 # If size is not >0, inform the user and exit
 # If percent is not an integer between 0 and 100, inform the user and exit
 # If number of iterations is not an integer that is 0 or greater, inform the user and exit
