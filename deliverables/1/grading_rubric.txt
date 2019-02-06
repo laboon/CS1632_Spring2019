@@ -31,7 +31,7 @@ Expected behavior and execution
 steps are SPECIFIC:                                  ____ / 15
   * No generalities (e.g. "enter a letter"; should be "enter X")
   * Tester could easily reproduce steps
-  * -2 for each generality, or -4 if a "consistent" generality
+  * -2 for each generality, up to -6 if a "consistent" generality
 
 At least three edge cases:                           ____ / 5
   * Valid edge cases and labeled
@@ -61,6 +61,8 @@ Defects are Reproducible:                            ____ / 10
   
 Include expected/observed behavior:                  ____ / 10
   * Must include BOTH
+  * Summary, Description, Reproduction Steps, Expected Behavio
+    Observed Behavioer (optional = Severity, Impact, Notes)
 
 Enhancement included:                                _____ / 10
   * Is an enhancement, not a defect
