@@ -1,0 +1,76 @@
+Grading Rubric for D1
+
+* Introduction: 10% of grade
+
+Concerns and/or difficulties listed:                 ____ / 5
+  * At least one issue raised (-5 if no)
+
+Clearly written:                                     ____ / 5
+  * No typos / misspellings / etc
+  * Understandable to reader (incl. clear sentence structure)
+
+* Test Plan: 50% of grade
+
+Must have >= 20 test cases; -7 for each missing < 20
+
+Test cases are valid                                 ____ / 15
+  * Include all elements (-2 for each missing)
+    * Identifier
+    * Test Case Description
+    * Preconditions
+    * Execution steps
+    * Postconditions
+
+Test cases include only EXPECTED
+behavior, not OBSERVED behavior:                     ____ / 10
+  * No "pass/fail" etc. written
+  * Postconditions = what SHOULD happen, not what DOES
+  * Test correct (expected) behavior
+
+Expected behavior and execution
+steps are SPECIFIC:                                  ____ / 15
+  * No generalities (e.g. "enter a letter"; should be "enter X")
+  * Tester could easily reproduce steps
+  * -2 for each generality, up to -6 if a "consistent" generality
+
+At least three edge cases:                           ____ / 5
+  * Valid edge cases and labeled
+  * None labeled: -5, only one -4, only two -3
+  * If not really an edge case, counts as missing an edge case
+  
+Clearly written:                                     ____ / 5
+  * No typos, misspellings, etc. (-1 for each, up to -5)
+  * Easy to understand and follow
+
+* Traceability Matrix: 10% of grade
+
+Each requirement & TC listed:                        ____ / 5
+  * TCs actually map to requirement
+  * -2 for each missing requirement or TC or invalid mapping
+  
+>= 1 Test case per requirement, and
+exactly 1 requirement per TC:                        ____ / 5
+  * No TC maps to > 1 req, each req has at least 1 TC
+
+* Defects and Enhancements Found and Described: 35% of grade
+
+Must be >= 3 defects! -10 for each missing one, or -25 if none
+
+Defects are Reproducible:                            ____ / 10  
+  * Specific steps to repro listed
+  
+Include expected/observed behavior:                  ____ / 10
+  * Must include BOTH
+  * Summary, Description, Reproduction Steps, Expected Behavio
+    Observed Behavioer (optional = Severity, Impact, Notes)
+
+Enhancement included:                                _____ / 10
+  * Is an enhancement, not a defect
+  * Is a reasonable, well-defined request
+
+Clearly written:                                     ____ / 5
+  * No typos, misspellings, etc.
+  * Reader can understand issue
+  * Follows proper format
+
+Total:                                               ____ / 100

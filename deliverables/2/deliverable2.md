@@ -25,9 +25,13 @@ You should turn in (hard-copy at the beginning of class) a title page with:
 * Your GitHub username
 * The URL of your code and tests on GitHub
 
-ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR ON GITHUB!  My username is `laboon`.
+ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR ON GITHUB!  My username is `laboon`.  TAs are as follows:
 
-Before turning this assignment in, I HIGHLY recommend you double-check that all of the code that you think is committed is in fact committed by (1) looking at the code on the GitHub web interface and (2) cloning it down to a new directory on your machine and trying to run it from there.
+* M/W 11:00 - 12:15 : Tianyi Cui, GitHub username `TyaCUI`
+* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13` 
+* T/H 9:30 - 10:45 : Xiaoyu Liang, GitHub username `Grade-CS1632`
+
+Before turning this assignment in, I HIGHLY recommend you double-check that all of the code that you think is committed is in fact committed by (1) looking at the code on the GitHub web interface and (2) cloning it down to a new directory on your machine and trying to run it from there.  We will be grading the version that you submit!
 
 Add a short ( < 1 page ) description of issues you faced when writing this code and tests.  If any tests you wrote fail, they should be included here, along with why you think that they are failing and a defect report.
 
