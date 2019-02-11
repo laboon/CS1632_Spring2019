@@ -69,7 +69,7 @@ class GraphTest < Minitest::Test
   # print method is called.
 
   def test_print_empty
-    assert_output(/Empty graph!/) { @g.print }
+    assert_output("Empty graph!\n") { @g.print }
   end
 
 
