@@ -37,7 +37,7 @@ class PredictorTest < Minitest::Test
   # refute by itself would check that the following statement returns false
 
   def test_magic_ball_is_magic_ball
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert magic_ball.is_a?(Predictor)
   end
 
@@ -47,13 +47,13 @@ class PredictorTest < Minitest::Test
   # refute can be read as "assert not" - that is, refute_nil would
   # be the same as the (nonexistent) "assert_not_nil"
   def test_magic_ball_new_not_nil
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     refute_nil magic_ball
   end
 
   # Verify that calling the shake method returns "SHAKE SHAKE SHAKE"
   def test_shake_shake_shake_shake
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert_equal "SHAKE SHAKE SHAKE", magic_ball.shake
   end
 
@@ -64,14 +64,14 @@ class PredictorTest < Minitest::Test
   # This calls the ask method on a new Predictor the question "Meow?"
   # This should return a string which should be something in Predictor::ANSWERS
   def test_ask_returns_an_answer
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert_includes Predictor::ANSWERS, magic_ball.ask("Meow?")
   end
 
   # Check that sending in a command with spaces works as expected
 
   def test_ask_spaces_returns_answer
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert_includes Predictor::ANSWERS, magic_ball.ask("Meow meow meow meow meow?")
   end
 
@@ -100,7 +100,7 @@ class PredictorTest < Minitest::Test
 
   def test_raises_error_when_question_is_number
     assert_raises "Question has invalid format." do
-      magic_ball = Predictor::new
+      magic_ball = Predictor.new
       magic_ball.ask(1)
     end
   end
@@ -110,7 +110,7 @@ class PredictorTest < Minitest::Test
   # marked as invalid
   def test_raises_error_when_no_question_mark
     assert_raises "Question has invalid format." do
-      magic_ball = Predictor::new
+      magic_ball = Predictor.new
       magic_ball.ask("This is not a question")
     end
   end
@@ -119,7 +119,7 @@ class PredictorTest < Minitest::Test
   # but does NOT have a :roll method.
 
   def test_magic_ball_methods
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert_respond_to magic_ball, :ask
     assert_respond_to magic_ball, :shake
     refute_respond_to magic_ball, :roll
@@ -129,7 +129,7 @@ class PredictorTest < Minitest::Test
   # to the console
 
   def test_magic_ball_silent_shake
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     assert_silent { magic_ball.shake() }
   end
 
@@ -137,7 +137,7 @@ class PredictorTest < Minitest::Test
   # to the console
 
   def test_magic_ball_print_shake
-    magic_ball = Predictor::new
+    magic_ball = Predictor.new
     # Remember the \n!
     assert_output("SHAKE SHAKE SHAKE\n") { magic_ball.print_shake }
   end
