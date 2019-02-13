@@ -37,7 +37,7 @@ At least three edge cases:                           ____ / 5
   * Valid edge cases and labeled
   * None labeled: -5, only one -4, only two -3
   * If not really an edge case, counts as missing an edge case
-  
+
 Clearly written:                                     ____ / 5
   * No typos, misspellings, etc. (-1 for each, up to -5)
   * Easy to understand and follow
@@ -47,24 +47,24 @@ Clearly written:                                     ____ / 5
 Each requirement & TC listed:                        ____ / 5
   * TCs actually map to requirement
   * -2 for each missing requirement or TC or invalid mapping
-  
+
 >= 1 Test case per requirement, and
 exactly 1 requirement per TC:                        ____ / 5
   * No TC maps to > 1 req, each req has at least 1 TC
 
-* Defects and Enhancements Found and Described: 35% of grade
+* Defects and Enhancements Found and Described: 30% of grade
 
 Must be >= 3 defects! -10 for each missing one, or -25 if none
 
-Defects are Reproducible:                            ____ / 10  
+Defects are Reproducible:                            ____ / 10
   * Specific steps to repro listed
-  
+
 Include expected/observed behavior:                  ____ / 10
   * Must include BOTH
   * Summary, Description, Reproduction Steps, Expected Behavio
     Observed Behavioer (optional = Severity, Impact, Notes)
 
-Enhancement included:                                _____ / 10
+Enhancement included:                                _____ / 5
   * Is an enhancement, not a defect
   * Is a reasonable, well-defined request
 
