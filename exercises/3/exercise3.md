@@ -9,7 +9,7 @@ This is an exercise and is thus not graded.
 
 ## Requirements
 
-Note that unlike systems-level tests, unit tests do not need to map directly to requirements.  However, they are often useful for determine what needs to be done (and in this case, they do map pretty well to requirements).
+Note that unlike systems-level tests, unit tests do not need to map directly to requirements.  However, they are often useful for determining what needs to be done (and in this case, they do map pretty well to requirements).
 
 1. The program shall accept one and only one argument from the command line.  If no arguments, or more than one argument, are passed in, the program shall exit.
 
