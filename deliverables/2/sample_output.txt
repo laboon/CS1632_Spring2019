@@ -2,255 +2,245 @@
 # pseudorandom number generator and how you implement the program.
 # However, your program output should be very similar to this.
 
-(20394) $ ruby ruby_rush.rb
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20052) $ ruby ruby_rush.rb -9 -9 -9
 Usage:
 ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
 *seed* should be an integer
 *num_prospectors* should be a non-negative integer
 *num_turns* should be a non-negative integer
 
-(20395) $ echo $?
-1
-
-(20396) $ ruby ruby_rush.rb 1 1 1
-Rubyist #1 starting in Enumerable Canyon.
-	Found no rubies or fake rubies in Enumerable Canyon.
-After 1 day, Rubyist 1 found:
-	0 rubies.
-	0 fake rubies.
-Going home empty-handed.
-
-(20397) $ echo $?
-0
-
-(20398) $ ruby ruby_rush.rb -1 1 1
-Rubyist #1 starting in Enumerable Canyon.
-	Found no rubies or fake rubies in Enumerable Canyon.
-After 1 day, Rubyist 1 found:
-	0 rubies.
-	0 fake rubies.
-Going home empty-handed.
-
-(20399) $ ruby ruby_rush.rb 1 -1 1
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20053) $ ruby ruby_rush.rb 1 -9 -9
 Usage:
 ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
 *seed* should be an integer
 *num_prospectors* should be a non-negative integer
 *num_turns* should be a non-negative integer
 
-(20400) $ ruby ruby_rush.rb 1 1 -9
-Usage:
-ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
-*seed* should be an integer
-*num_prospectors* should be a non-negative integer
-*num_turns* should be a non-negative integer
-
-(20401) $ ruby ruby_rush.rb 1 1 5
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20054) $ ruby ruby_rush.rb 1 1 1
 Rubyist #1 starting in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
-Heading from Enumerable Canyon to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found 1 ruby in Matzburg.
-	Found 1 ruby in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 7 days, Rubyist 1 found:
-	2 rubies.
-	0 fake rubies.
+After 2 days, Rubyist 1 found:
+	1 ruby.
+	1 fake ruby.
 Going home sad.
 
-(20402) $ ruby ruby_rush.rb 4 2 3
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20055) $ ruby ruby_rush.rb 1 1 4
 Rubyist #1 starting in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found no rubies or fake rubies in Enumerable Canyon.
+Heading from Enumerable Canyon to Monkey Patch City.
+	Found 1 ruby and 1 fake ruby in Monkey Patch City.
+	Found 1 ruby and 1 fake ruby in Monkey Patch City.
+	Found no rubies or fake rubies in Monkey Patch City.
+Heading from Monkey Patch City to Matzburg.
+	Found no rubies or fake rubies in Matzburg.
+Heading from Matzburg to Dynamic Palisades.
+	Found 1 ruby in Dynamic Palisades.
+	Found 2 rubies and 1 fake ruby in Dynamic Palisades.
+	Found 2 rubies in Dynamic Palisades.
+	Found 2 rubies and 1 fake ruby in Dynamic Palisades.
+	Found 2 rubies in Dynamic Palisades.
+	Found 2 fake rubies in Dynamic Palisades.
+	Found 1 fake ruby in Dynamic Palisades.
+	Found 2 rubies and 2 fake rubies in Dynamic Palisades.
+	Found 1 fake ruby in Dynamic Palisades.
+	Found 1 ruby and 2 fake rubies in Dynamic Palisades.
+	Found 2 fake rubies in Dynamic Palisades.
+	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
+	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
+	Found 2 rubies and 1 fake ruby in Dynamic Palisades.
+	Found 1 ruby in Dynamic Palisades.
+	Found 1 fake ruby in Dynamic Palisades.
+	Found no rubies or fake rubies in Dynamic Palisades.
+After 23 days, Rubyist 1 found:
+	20 rubies.
+	19 fake rubies.
+Going home victorious!
+
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20056) $ ruby ruby_rush.rb 2 2 2
+Rubyist #1 starting in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Duck Type Beach.
 	Found 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 rubies and 2 fake rubies in Duck Type Beach.
+	Found 2 rubies and 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 1 ruby in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 rubies and 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
 	Found 1 ruby and 1 fake ruby in Duck Type Beach.
 	Found 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 rubies and 1 fake ruby in Duck Type Beach.
+	Found 1 ruby and 1 fake ruby in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
+	Found 2 rubies and 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 1 ruby in Duck Type Beach.
+	Found 1 fake ruby in Duck Type Beach.
+	Found 1 ruby and 2 fake rubies in Duck Type Beach.
+	Found 1 ruby and 1 fake ruby in Duck Type Beach.
+	Found 1 ruby and 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 rubies and 2 fake rubies in Duck Type Beach.
+	Found 1 fake ruby in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 1 fake ruby in Duck Type Beach.
+	Found 1 ruby and 1 fake ruby in Duck Type Beach.
 	Found no rubies or fake rubies in Duck Type Beach.
-Heading from Duck Type Beach to Matzburg.
-	Found 2 rubies in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 7 days, Rubyist 1 found:
-	3 rubies.
-	3 fake rubies.
-Going home sad.
+After 55 days, Rubyist 1 found:
+	51 rubies.
+	57 fake rubies.
+Going home victorious!
 Rubyist #2 starting in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Monkey Patch City.
+	Found 1 ruby and 1 fake ruby in Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
+	Found 1 ruby and 1 fake ruby in Monkey Patch City.
+	Found 1 ruby and 1 fake ruby in Monkey Patch City.
+	Found 1 fake ruby in Monkey Patch City.
+	Found 1 fake ruby in Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
+	Found 1 fake ruby in Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
 	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found 2 rubies in Matzburg.
-	Found 1 ruby in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 5 days, Rubyist 2 found:
-	3 rubies.
-	0 fake rubies.
+After 12 days, Rubyist 2 found:
+	7 rubies.
+	6 fake rubies.
 Going home sad.
 
-(20403) $ ruby ruby_rush.rb 9001 1 10
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20057) $ ruby ruby_rush.rb -19 4 1
 Rubyist #1 starting in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
-Heading from Enumerable Canyon to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Nil Town.
-	Found 1 fake ruby in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found no rubies or fake rubies in Nil Town.
-Heading from Nil Town to Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found no rubies or fake rubies in Hash Crossing.
-Heading from Hash Crossing to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found 1 ruby in Matzburg.
-	Found 2 rubies in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found no rubies or fake rubies in Dynamic Palisades.
-Heading from Dynamic Palisades to Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found no rubies or fake rubies in Hash Crossing.
-Heading from Hash Crossing to Nil Town.
-	Found 1 fake ruby in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found 1 fake ruby in Nil Town.
-	Found no rubies or fake rubies in Nil Town.
-After 35 days, Rubyist 1 found:
-	12 rubies.
-	26 fake rubies.
-Going home victorious!
+After 4 days, Rubyist 1 found:
+	2 rubies.
+	1 fake ruby.
+Going home sad.
+Rubyist #2 starting in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found no rubies or fake rubies in Enumerable Canyon.
+After 2 days, Rubyist 2 found:
+	1 ruby.
+	0 fake rubies.
+Going home sad.
+Rubyist #3 starting in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found no rubies or fake rubies in Enumerable Canyon.
+After 3 days, Rubyist 3 found:
+	1 ruby.
+	1 fake ruby.
+Going home sad.
+Rubyist #4 starting in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found no rubies or fake rubies in Enumerable Canyon.
+After 12 days, Rubyist 4 found:
+	7 rubies.
+	10 fake rubies.
+Going home sad.
 
-(20404) $ ruby ruby_rush.rb -8700 5 5
+[laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
+(20058) $ ruby ruby_rush.rb -16 4 2
 Rubyist #1 starting in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
+	Found 1 ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Duck Type Beach.
+	Found 2 rubies and 2 fake rubies in Duck Type Beach.
+	Found 2 rubies in Duck Type Beach.
+	Found 1 fake ruby in Duck Type Beach.
+	Found 2 rubies and 2 fake rubies in Duck Type Beach.
+	Found 2 fake rubies in Duck Type Beach.
+	Found 1 ruby and 1 fake ruby in Duck Type Beach.
+	Found 1 fake ruby in Duck Type Beach.
 	Found no rubies or fake rubies in Duck Type Beach.
-Heading from Duck Type Beach to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 ruby in Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found 1 ruby and 1 fake ruby in Dynamic Palisades.
-	Found no rubies or fake rubies in Dynamic Palisades.
-Heading from Dynamic Palisades to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 25 days, Rubyist 1 found:
-	16 rubies.
+After 15 days, Rubyist 1 found:
+	12 rubies.
 	12 fake rubies.
 Going home victorious!
 Rubyist #2 starting in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
+	Found 1 ruby in Monkey Patch City.
+	Found 1 fake ruby in Monkey Patch City.
 	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Dynamic Palisades.
-	Found 1 fake ruby in Dynamic Palisades.
-	Found no rubies or fake rubies in Dynamic Palisades.
-Heading from Dynamic Palisades to Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found 1 ruby in Hash Crossing.
-	Found 1 fake ruby in Hash Crossing.
-	Found 1 ruby and 1 fake ruby in Hash Crossing.
-	Found no rubies or fake rubies in Hash Crossing.
-After 15 days, Rubyist 2 found:
-	6 rubies.
-	7 fake rubies.
+After 7 days, Rubyist 2 found:
+	2 rubies.
+	3 fake rubies.
 Going home sad.
 Rubyist #3 starting in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
+	Found 1 ruby and 1 fake ruby in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Duck Type Beach.
-	Found 1 ruby in Duck Type Beach.
-	Found 1 ruby in Duck Type Beach.
-	Found 1 ruby and 1 fake ruby in Duck Type Beach.
-	Found 1 fake ruby in Duck Type Beach.
 	Found no rubies or fake rubies in Duck Type Beach.
-Heading from Duck Type Beach to Enumerable Canyon.
-	Found no rubies or fake rubies in Enumerable Canyon.
-Heading from Enumerable Canyon to Duck Type Beach.
-	Found 1 ruby in Duck Type Beach.
-	Found 1 ruby in Duck Type Beach.
-	Found no rubies or fake rubies in Duck Type Beach.
-Heading from Duck Type Beach to Enumerable Canyon.
-	Found no rubies or fake rubies in Enumerable Canyon.
-After 11 days, Rubyist 3 found:
-	5 rubies.
-	2 fake rubies.
+After 6 days, Rubyist 3 found:
+	3 rubies.
+	4 fake rubies.
 Going home sad.
 Rubyist #4 starting in Enumerable Canyon.
 	Found no rubies or fake rubies in Enumerable Canyon.
 Heading from Enumerable Canyon to Monkey Patch City.
 	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found 1 ruby in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-Heading from Matzburg to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 6 days, Rubyist 4 found:
-	1 ruby.
+After 2 days, Rubyist 4 found:
+	0 rubies.
 	0 fake rubies.
-Going home sad.
-Rubyist #5 starting in Enumerable Canyon.
-	Found no rubies or fake rubies in Enumerable Canyon.
-Heading from Enumerable Canyon to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Nil Town.
-	Found 1 fake ruby in Nil Town.
-	Found 1 fake ruby in Nil Town.
-	Found 2 fake rubies in Nil Town.
-	Found no rubies or fake rubies in Nil Town.
-Heading from Nil Town to Monkey Patch City.
-	Found no rubies or fake rubies in Monkey Patch City.
-Heading from Monkey Patch City to Matzburg.
-	Found 2 rubies in Matzburg.
-	Found no rubies or fake rubies in Matzburg.
-After 9 days, Rubyist 5 found:
-	2 rubies.
-	4 fake rubies.
-Going home sad.
+Going home empty-handed.
