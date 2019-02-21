@@ -51,7 +51,7 @@ Dynamic Palisades |    2       |    2
 
 13. When displaying information, the correct singular and plural forms shall be used, e.g. "0 rubies", "1 ruby", "2 rubies".
 
-14. The simulation shall run the number of times indicated by the second argument to the program, `number of prospectors`.  Prospectors shall be named "Rubyist #n" where n is their number, starting with #1 (there shall be no Rubyist #0).
+14. The simulation shall run the number of times indicated by the second argument to the program, `number of prospectors`.  Prospectors shall be named "Rubyist #n" where n is their number, starting with #1 (there shall be no Rubyist #0).  It shall be permissible to refer to these Rubyists with or without a preceding `#`; for example, either "Rubyist #1" or "Rubyist 1" is acceptable.
 
 14. A "day" shall be defined as one search for rubies.  A prospector may have multiple days in a single location.  However, a prospector will always spend a minimum of one day at a locations searching for rubies.
 
