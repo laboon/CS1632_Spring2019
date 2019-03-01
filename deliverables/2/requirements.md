@@ -2,7 +2,7 @@
 
 2. The program shall create all pseudorandom numbers from the seed passed in as an integer argument to the program (as explained in requirement 1).  Thus, the system is entirely deterministic and thus repeatable with the same arguments.
 
-3. The seven locations on the map shall be as follows: Sutter Creek, which connects to Duck Type Beach and Monkey Patch City; Duck Type Beach, which connects to Enumerable Canyon and Matzburg; Monkey Patch City, which connects to Nil Town, Enumerable Canyon, and Matzburg; Nil Town, which connects to Monkey Patch City and Hash Crossing; Matzburg, which connects to Monkey Patch City, Duck Type Beach, Hash Crossing, and Dynamic Palisades; Hash Crossing, which connects to Matzburg, Nil Town, and Dynamic Palisades; and Dynamic Palisades, which connects to Matzburg and Hash Crossing.  It may be easier to view a graphical depiction of the map:
+3. The seven locations on the map shall be as follows: Enumerable Canyon, which connects to Duck Type Beach and Monkey Patch City; Duck Type Beach, which connects to Enumerable Canyon and Matzburg; Monkey Patch City, which connects to Nil Town, Enumerable Canyon, and Matzburg; Nil Town, which connects to Monkey Patch City and Hash Crossing; Matzburg, which connects to Monkey Patch City, Duck Type Beach, Hash Crossing, and Dynamic Palisades; Hash Crossing, which connects to Matzburg, Nil Town, and Dynamic Palisades; and Dynamic Palisades, which connects to Matzburg and Hash Crossing.  It may be easier to view a graphical depiction of the map:
 
 ```
 Nil Town-----------------------------
@@ -51,7 +51,7 @@ Dynamic Palisades |    2       |    2
 
 13. When displaying information, the correct singular and plural forms shall be used, e.g. "0 rubies", "1 ruby", "2 rubies".
 
-14. The simulation shall run the number of times indicated by the second argument to the program, `number of prospectors`.  Prospectors shall be named "Rubyist #n" where n is their number, starting with #1 (there shall be no Rubyist #0).
+14. The simulation shall run the number of times indicated by the second argument to the program, `number of prospectors`.  Prospectors shall be named "Rubyist #n" where n is their number, starting with #1 (there shall be no Rubyist #0).  It shall be permissible to refer to these Rubyists with or without a preceding `#`; for example, either "Rubyist #1" or "Rubyist 1" is acceptable.
 
 14. A "day" shall be defined as one search for rubies.  A prospector may have multiple days in a single location.  However, a prospector will always spend a minimum of one day at a locations searching for rubies.
 
