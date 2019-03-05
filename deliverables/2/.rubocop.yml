@@ -1,3 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.5
+
 Metrics/LineLength:
   Max: 120
 
@@ -12,9 +15,6 @@ Metrics/PerceivedComplexity:
 
 Metrics/AbcSize:
   Max: 60
-
-Metrics/PerceivedComplexity:
-  Max: 30
 
 Metrics/CyclomaticComplexity:
   Max: 50
