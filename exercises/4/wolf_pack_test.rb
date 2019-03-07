@@ -14,7 +14,7 @@ class WolfPackTest < Minitest::Test
   # Test one_wolf
   # Ensure that the wolf returned is one of the wolves
   # added to the pack.
-
+  
   # TODO
   
   # Test add_wolf
