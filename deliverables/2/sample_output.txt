@@ -5,7 +5,7 @@
 [laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
 (20052) $ ruby ruby_rush.rb -9 -9 -9
 Usage:
-ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
+ruby ruby_rush.rb *seed* *num_prospectors* *num_turns*
 *seed* should be an integer
 *num_prospectors* should be a non-negative integer
 *num_turns* should be a non-negative integer
@@ -13,7 +13,7 @@ ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
 [laboon@ekaterina ~/pitt/pitt_private/ruby_rush]
 (20053) $ ruby ruby_rush.rb 1 -9 -9
 Usage:
-ruby gold_rush.rb *seed* *num_prospectors* *num_turns*
+ruby ruby_rush.rb *seed* *num_prospectors* *num_turns*
 *seed* should be an integer
 *num_prospectors* should be a non-negative integer
 *num_turns* should be a non-negative integer
