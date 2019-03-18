@@ -51,23 +51,26 @@ There are two possibilities for extra credit, for a total of +7 points on this a
 
 1. (+2 points) Add the following two logical operators - XOR and SINGLE to the truth table, along with an additional _four_ Katalon tests for testing these.  Recall that for any set of values n, XOR is defined as being true if an _odd_ number of values are true.  For example:
 
-* XOR(TFT) is false
-* XOR(FFT) is true
-* XOR(FT) is true
-* XOR(TT) is false
-* XOR(FTFTFTFT) is true
+* XOR(TFT) is false (two trues = even)
+* XOR(FFT) is true (one true = odd)
+* XOR(FT) is true (one true = odd)
+* XOR(TT) is false (two trues = even)
+* XOR(TFTFTFTFT) is true (five trues = odd)
+* XOR(FFTFTFTFT) is false (four trues = even)
 
 The SINGLE operator returns true if and only if a single value is true and all others are false.  For example:
 
-* SINGLE(FFFF) is false
-* SINGLE(FFTF) is true
-* SINGLE(FFTT) is false
-* SINGLE(TTTT) is false
-* SINGLE(FT) is true
+* SINGLE(FFFF) is false (zero trues)
+* SINGLE(FFTF) is true (one true)
+* SINGLE(FFTT) is false (two trues)
+* SINGLE(TTTT) is false (four trues)
+* SINGLE(FT) is true (one true)
 
 2. (+5 points) Add the ability to save your truth tables as a particular name and access them later.  For example, you may save a truth table as `foo`, then access it at /saved/foo and it will display the saved table just as if you had entered the initial parameters.  This does not have to be persisted to disk (although it may be!); it is allowable to store it in memory (and thus lose it after the Sinatra server is shut down).  However, you should show an appropriate error message if the truth table with a particular name does not exist.
 
 You must also include an additional five Katalon tests for this.
+
+If you do either of the extra credits, you MUST mark down on your cover page which extra credit problems you did (1, 2, or both 1 & 2).
 
 ## Grading
 
