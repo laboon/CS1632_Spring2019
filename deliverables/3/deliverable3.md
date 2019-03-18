@@ -27,7 +27,13 @@ You should turn in a title page with:
 * Your name and your GitHub username
 * The URL of your code and tests on GitHub
 
-ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
+ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is:
+
+* M/W 11:00 - 12:15 : Tianyi Cui, GitHub username `TyaCUI`
+* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13` 
+* T/H 9:30 - 10:45 : Xiaoyu Liang, GitHub username `Grade-CS1632`
+
+__You will lose an automatic 10 points if either I or the TA cannot access your repository.__
 
 Before turning this assignment in, I HIGHLY recommend you double-check that all of the code that you think is committed is in fact committed by (1) looking at the code on the GitHub web interface and (2) cloning it down to a new directory on your machine and trying to run it from there.
 
