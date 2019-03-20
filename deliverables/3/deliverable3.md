@@ -30,7 +30,7 @@ You should turn in a title page with:
 ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is:
 
 * M/W 11:00 - 12:15 : Tianyi Cui, GitHub username `TyaCUI`
-* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13` 
+* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13`
 * T/H 9:30 - 10:45 : Xiaoyu Liang, GitHub username `Grade-CS1632`
 
 __You will lose an automatic 10 points if either I or the TA cannot access your repository.__
@@ -39,7 +39,7 @@ Before turning this assignment in, I HIGHLY recommend you double-check that all 
 
 Add a short ( < 1 page ) description of issues you faced when writing this code and tests.  If any tests you wrote fail, they should be included here, along with why you think that they are failing.
 
-After this, ON A SEPARATE PAGE, include a screenshot of the executed unit tests (this means a SCREENSHOT of the Katalon tool after execution of the test suite).  If a test doesn't pass, it should be included in the concerns section above.  Ideally, for a perfect grade, all tests should be green (passing).  However, if you have what you think is a valid test and it is not passing, I would prefer that you include a defect report (in the proper template!) rather than just deleting it.  Knowing that a defect exists and reporting it is much better than having it discovered by the customer (me)!
+After this, ON A SEPARATE PAGE, include a screenshot of the executed Katalon tests (this means a SCREENSHOT of the Katalon tool after execution of the test suite).  If a test doesn't pass, it should be included in the concerns section above.  Ideally, for a perfect grade, all tests should be green (passing).  However, if you have what you think is a valid test and it is not passing, I would prefer that you include a defect report (in the proper template!) rather than just deleting it.  Knowing that a defect exists and reporting it is much better than having it discovered by the customer (me)!
 
 There is no need to print out the code itself.  It should be on GitHub BY THE BEGINNING OF CLASS.
 
