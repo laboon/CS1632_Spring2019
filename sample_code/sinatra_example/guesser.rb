@@ -30,10 +30,10 @@ end
 # If a request comes in for /bill, show the bill view
 get '/bill' do
   puts "This will go in the logging output - bill called"
-  erb :bill
+  erb :bill # parses bill.erb -> displays it
 end
 
-# If a request comes in for /bill, show the no bill view
+# If a request comes in for /nobill, show the no bill view
 get '/nobill' do
   puts "This will go in the logging output - nobill called"
   erb :nobill
@@ -43,11 +43,21 @@ end
 # Show the meow view.
 # Display "meow" x times on the page
 get '/meow' do
+  puts "Params hash is : #{params}"
   # If x is given as a parameter, set it to x; otherwise, set it to five
-  x = params['x'].to_i
+  x = params['x']
+  
   x ||= 5 # if x is nil, set to 5
-  erb :meow, :locals => {x: x}
+  x = x.to_i
+  erb :meow, :locals => {x: x, meow: "MEEEEEEEEEEOW"}
 end
+
+# What to do if we can't find the route
+not_found do
+  status 404
+  erb :error
+end
+
 
 # If a GET request comes in at /, do the following.
 
@@ -72,7 +82,3 @@ get '/' do
   erb :index, :locals => { number: number, guess: guess, got_it: got_it, msg: msg }
 end
 
-not_found do
-  status 404
-  erb :error
-end
