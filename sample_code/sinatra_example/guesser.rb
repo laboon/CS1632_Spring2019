@@ -46,7 +46,7 @@ get '/meow' do
   puts "Params hash is : #{params}"
   # If x is given as a parameter, set it to x; otherwise, set it to five
   x = params['x']
-  
+
   x ||= 5 # if x is nil, set to 5
   x = x.to_i
   erb :meow, :locals => {x: x, meow: "MEEEEEEEEEEOW"}
@@ -64,16 +64,13 @@ end
 get '/' do
   # Get the parameter named guess and store it in pg
   pg = params['guess']
-  # Setting these variables here so that they are accessible
-  # outside the conditional
-  guess = -1
-  got_it = false
   # If there was no guess parameter, this is a brand new game.
   # Generate a secret number and set the guess to nil.
   if pg.nil?
     number = secret_num
     puts "Setting secret number to #{number}"
     guess = nil
+    got_it = false
   else
     guess = pg.to_i
     msg = determine_msg number, guess
@@ -81,4 +78,3 @@ get '/' do
   end
   erb :index, :locals => { number: number, guess: guess, got_it: got_it, msg: msg }
 end
-
