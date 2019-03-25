@@ -93,6 +93,8 @@ For your final timing and performance analysis, you should use `long.txt` as the
 
 NOTE: You may use the `sample.txt` blockchain for your flamegraph (although you should use `long.txt` for the times).  This should still give you a good idea of where the hot spots are in your application but it is less likely to cause an error when rendering in your browser.
 
+For our Billcoin blockchain verifier, the performance target is < 20 seconds to verify the 10,000-entry blockchain `long.txt`.  The performance threshold is < 180 seconds to verify it.  The target and threshold should be calculated based on a a 2.3 GHz Macbook Pro with 16 GB of RAM, running no other programs besides necessary system daemons and the like.  You may adjust based on your computer's specifications, but final times will be determined based on my computer as specified above.  Please feel free to email me if you would like any information on other specifications of the reference computer.
+
 Note that this project is a very, very simple implementation of a blockchain, missing many important concepts (e.g. mining, signatures, hash function tradeoffs, dealing with chainsplits, etc.). If you are interested in a deeper understanding, I recommend the following resources:
 
 1. "Bitcoin: A Peer-to-Peer Electronic Cash System" by Satoshi Nakomoto (alias) - (the original theory behind Bitcoin) - https://bitcoin.org/bitcoin.pdf
