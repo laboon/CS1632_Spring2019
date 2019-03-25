@@ -2,7 +2,7 @@
 
 Spring Semester 2019
 
-ASSIGNED 18/19 MAR (MW/TH); 1/2 APR (MW/TH)
+ASSIGNED 18/19 MAR (MW/TH); DUE 1/2 APR (MW/TH)
 
 ## Deliverable 3
 
