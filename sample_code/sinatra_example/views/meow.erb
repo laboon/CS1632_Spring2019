@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  <body>
+    <p>
+      I will <%= meow.downcase %> :
+    <p>
+      <%= x %>
+    <p>
+      time(s)
+    <p>
+    <% if x > 100 %>
+      <b>I can't meow that much =(</b>
+    <% else %>
+      <% x.times do %>
+        <p>
+        <b>meow</b>
+      <% end %>
+   <% end %>
+   <% unless x > 10 %>
+      <b>That's not a lot of meowing. =(</b>
+   <% end %>
+   <p>
+   <%= (1..10).to_a.map { |x| x ** 2 }.sum %>
+  </body>
+</html>
+  

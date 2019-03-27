@@ -2,7 +2,7 @@
 
 Spring Semester 2019
 
-ASSIGNED 18/19 MAR (MW/TH); 1/2 APR (MW/TH)
+ASSIGNED 18/19 MAR (MW/TH); DUE 1/2 APR (MW/TH)
 
 ## Deliverable 3
 
@@ -27,13 +27,19 @@ You should turn in a title page with:
 * Your name and your GitHub username
 * The URL of your code and tests on GitHub
 
-ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is `chenranli`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.
+ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is:
+
+* M/W 11:00 - 12:15 : Tianyi Cui, GitHub username `TyaCUI`
+* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13`
+* T/H 9:30 - 10:45 : Xiaoyu Liang, GitHub username `Grade-CS1632`
+
+__You will lose an automatic 10 points if either I or the TA cannot access your repository.__
 
 Before turning this assignment in, I HIGHLY recommend you double-check that all of the code that you think is committed is in fact committed by (1) looking at the code on the GitHub web interface and (2) cloning it down to a new directory on your machine and trying to run it from there.
 
 Add a short ( < 1 page ) description of issues you faced when writing this code and tests.  If any tests you wrote fail, they should be included here, along with why you think that they are failing.
 
-After this, ON A SEPARATE PAGE, include a screenshot of the executed unit tests (this means a SCREENSHOT of the Katalon tool after execution of the test suite).  If a test doesn't pass, it should be included in the concerns section above.  Ideally, for a perfect grade, all tests should be green (passing).  However, if you have what you think is a valid test and it is not passing, I would prefer that you include a defect report (in the proper template!) rather than just deleting it.  Knowing that a defect exists and reporting it is much better than having it discovered by the customer (me)!
+After this, ON A SEPARATE PAGE, include a screenshot of the executed Katalon tests (this means a SCREENSHOT of the Katalon tool after execution of the test suite).  If a test doesn't pass, it should be included in the concerns section above.  Ideally, for a perfect grade, all tests should be green (passing).  However, if you have what you think is a valid test and it is not passing, I would prefer that you include a defect report (in the proper template!) rather than just deleting it.  Knowing that a defect exists and reporting it is much better than having it discovered by the customer (me)!
 
 There is no need to print out the code itself.  It should be on GitHub BY THE BEGINNING OF CLASS.
 
@@ -51,23 +57,26 @@ There are two possibilities for extra credit, for a total of +7 points on this a
 
 1. (+2 points) Add the following two logical operators - XOR and SINGLE to the truth table, along with an additional _four_ Katalon tests for testing these.  Recall that for any set of values n, XOR is defined as being true if an _odd_ number of values are true.  For example:
 
-* XOR(TFT) is false
-* XOR(FFT) is true
-* XOR(FT) is true
-* XOR(TT) is false
-* XOR(FTFTFTFT) is true
+* XOR(TFT) is false (two trues = even)
+* XOR(FFT) is true (one true = odd)
+* XOR(FT) is true (one true = odd)
+* XOR(TT) is false (two trues = even)
+* XOR(TFTFTFTFT) is true (five trues = odd)
+* XOR(FFTFTFTFT) is false (four trues = even)
 
 The SINGLE operator returns true if and only if a single value is true and all others are false.  For example:
 
-* SINGLE(FFFF) is false
-* SINGLE(FFTF) is true
-* SINGLE(FFTT) is false
-* SINGLE(TTTT) is false
-* SINGLE(FT) is true
+* SINGLE(FFFF) is false (zero trues)
+* SINGLE(FFTF) is true (one true)
+* SINGLE(FFTT) is false (two trues)
+* SINGLE(TTTT) is false (four trues)
+* SINGLE(FT) is true (one true)
 
 2. (+5 points) Add the ability to save your truth tables as a particular name and access them later.  For example, you may save a truth table as `foo`, then access it at /saved/foo and it will display the saved table just as if you had entered the initial parameters.  This does not have to be persisted to disk (although it may be!); it is allowable to store it in memory (and thus lose it after the Sinatra server is shut down).  However, you should show an appropriate error message if the truth table with a particular name does not exist.
 
 You must also include an additional five Katalon tests for this.
+
+If you do either of the extra credits, you MUST mark down on your cover page which extra credit problems you did (1, 2, or both 1 & 2).
 
 ## Grading
 

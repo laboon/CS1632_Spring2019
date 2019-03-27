@@ -1,0 +1,222 @@
+$ ruby verifier.rb sample.txt
+236340: 18 billcoins
+255185: 1 billcoins
+338967: 100 billcoins
+390411: 2 billcoins
+402207: 78 billcoins
+444100: 102 billcoins
+471345: 1 billcoins
+532260: 80 billcoins
+537882: 100 billcoins
+561180: 1 billcoins
+569274: 146 billcoins
+577469: 7 billcoins
+600381: 2 billcoins
+689881: 132 billcoins
+717802: 1 billcoins
+735567: 4 billcoins
+780971: 13 billcoins
+794343: 109 billcoins
+937639: 100 billcoins
+951990: 1 billcoins
+995917: 2 billcoins
+
+ $ ruby verifier.rb
+Usage: ruby verifier.rb <name_of_file>
+       name_of_file = name of file to verify
+
+$ ruby verifier.rb bad_number.txt
+Line 8: Invalid block number 9, should be 8
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb bad_prev_hash.txt
+Line 9: Previous hash was 7777, should be a91
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb bad_block_hash.txt
+Line 9: String '9|a91|402207>794343(10):402207>780971(13):794343>236340(16):717802>717802(1):SYSTEM>689881(100)|1553184699.691433000' hash set to abcd, should be 676e
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb invalid_format.txt
+Line 0: Could not parse transactions list 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks'
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb invalid_transaction.txt
+Line 9: Invalid block, address 402207 has -99912 billcoins!
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb bad_timestamp.txt
+Line 9: Previous timestamp 1553184699.685386000 >= new timestamp 1553184699.0
+BLOCKCHAIN INVALID
+
+$ ruby verifier.rb 100.txt
+006586: 173 billcoins
+008138: 525 billcoins
+012121: 339 billcoins
+050781: 123 billcoins
+087095: 474 billcoins
+167373: 522 billcoins
+187174: 313 billcoins
+195507: 531 billcoins
+217151: 538 billcoins
+226216: 284 billcoins
+245537: 342 billcoins
+268241: 227 billcoins
+281974: 338 billcoins
+326904: 275 billcoins
+335830: 173 billcoins
+338036: 262 billcoins
+357621: 525 billcoins
+360314: 423 billcoins
+363709: 235 billcoins
+443914: 86 billcoins
+495699: 131 billcoins
+548603: 340 billcoins
+562872: 275 billcoins
+669488: 162 billcoins
+685223: 562 billcoins
+736126: 376 billcoins
+758620: 349 billcoins
+778010: 468 billcoins
+814708: 311 billcoins
+933987: 318 billcoins
+
+$ ruby verifier.rb 1000.txt
+006027: 2163 billcoins
+083965: 4142 billcoins
+100420: 5167 billcoins
+147286: 1620 billcoins
+153017: 2322 billcoins
+181799: 4601 billcoins
+216739: 5119 billcoins
+305982: 2439 billcoins
+308346: 3113 billcoins
+442217: 3131 billcoins
+464259: 2756 billcoins
+518439: 3318 billcoins
+518993: 2610 billcoins
+539320: 6089 billcoins
+544860: 2266 billcoins
+560415: 3694 billcoins
+567954: 4304 billcoins
+675129: 3492 billcoins
+720222: 3814 billcoins
+725458: 1495 billcoins
+834363: 2716 billcoins
+841290: 5486 billcoins
+852220: 2601 billcoins
+866309: 3095 billcoins
+900107: 2130 billcoins
+901262: 4308 billcoins
+904130: 1820 billcoins
+915022: 4124 billcoins
+923991: 2519 billcoins
+949195: 3546 billcoins
+
+$ ruby verifier.rb long.txt
+038092: 28797 billcoins
+053998: 40819 billcoins
+080698: 17110 billcoins
+175832: 46140 billcoins
+179821: 63834 billcoins
+229979: 35227 billcoins
+244180: 28226 billcoins
+272681: 51427 billcoins
+278481: 17158 billcoins
+288243: 15948 billcoins
+296567: 44309 billcoins
+304289: 31685 billcoins
+308467: 12582 billcoins
+382826: 28369 billcoins
+397695: 30371 billcoins
+422910: 39317 billcoins
+435378: 42264 billcoins
+447376: 26871 billcoins
+542915: 16288 billcoins
+668944: 19657 billcoins
+714133: 56432 billcoins
+717753: 26219 billcoins
+743479: 48049 billcoins
+789210: 28816 billcoins
+830212: 48936 billcoins
+838433: 30071 billcoins
+903014: 44464 billcoins
+947550: 23120 billcoins
+959441: 27893 billcoins
+974646: 29601 billcoins
+
+# Timing two different versions of verifier.rb...
+
+$ time ruby verifier.rb long.txt
+038092: 28797 billcoins
+053998: 40819 billcoins
+080698: 17110 billcoins
+175832: 46140 billcoins
+179821: 63834 billcoins
+229979: 35227 billcoins
+244180: 28226 billcoins
+272681: 51427 billcoins
+278481: 17158 billcoins
+288243: 15948 billcoins
+296567: 44309 billcoins
+304289: 31685 billcoins
+308467: 12582 billcoins
+382826: 28369 billcoins
+397695: 30371 billcoins
+422910: 39317 billcoins
+435378: 42264 billcoins
+447376: 26871 billcoins
+542915: 16288 billcoins
+668944: 19657 billcoins
+714133: 56432 billcoins
+717753: 26219 billcoins
+743479: 48049 billcoins
+789210: 28816 billcoins
+830212: 48936 billcoins
+838433: 30071 billcoins
+903014: 44464 billcoins
+947550: 23120 billcoins
+959441: 27893 billcoins
+974646: 29601 billcoins
+
+real	0m58.663s
+user	0m57.487s
+sys	0m0.309s
+
+# Optimizations added...
+
+$ time ruby verifier.rb long.txt
+038092: 28797 billcoins
+053998: 40819 billcoins
+080698: 17110 billcoins
+175832: 46140 billcoins
+179821: 63834 billcoins
+229979: 35227 billcoins
+244180: 28226 billcoins
+272681: 51427 billcoins
+278481: 17158 billcoins
+288243: 15948 billcoins
+296567: 44309 billcoins
+304289: 31685 billcoins
+308467: 12582 billcoins
+382826: 28369 billcoins
+397695: 30371 billcoins
+422910: 39317 billcoins
+435378: 42264 billcoins
+447376: 26871 billcoins
+542915: 16288 billcoins
+668944: 19657 billcoins
+714133: 56432 billcoins
+717753: 26219 billcoins
+743479: 48049 billcoins
+789210: 28816 billcoins
+830212: 48936 billcoins
+838433: 30071 billcoins
+903014: 44464 billcoins
+947550: 23120 billcoins
+959441: 27893 billcoins
+974646: 29601 billcoins
+
+real	0m1.814s
+user	0m1.560s
+sys	0m0.243s
