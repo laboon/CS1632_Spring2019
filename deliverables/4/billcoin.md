@@ -63,7 +63,7 @@ Each line consists of one block.  A block consists of the following elements, se
 
 Transactions must be valid on a per-block basis.  This means that there may be a point mid-way through the block that an address has a negative balance, but every address should have a nonnegative balance (>= 0) by the end of the block.
 
-For example, assume 111111 has 5 billcoins in his account and 222222 has 0, and you receive this block.
+For example, assume 111111 has 5 billcoins in their account and 222222 has 0, and you receive this block.
 
 ```
 8|e01d|222222>333333(3):111111>222222(4):SYSTEM>444444(100)|1518839370.605237540|c87b
@@ -101,5 +101,9 @@ Note that this project is a very, very simple implementation of a blockchain, mi
 2. The Ethereum Whitepaper (the original theory behind Ethereum) - https://github.com/ethereum/wiki/wiki/White-Paper
 3. The Ethereum Yellowpaper (the implementation of Ethereum) - https://github.com/ethereum/yellowpaper
 4. "Mastering Bitcoin" by Andreas Antonopoulos (book on the technical details of Bitcoin)
-5. "Bitcoin for the Befuddled" by Chris Wilmer (a professor at Pitt) and Conrad Barski
-6. "Introducing Ethereum and Solidity" by Chris Dannen (book introducing Ethereum)
+5. "Mastering Ethereum" by Andreas Antonopoulos and Gavin Wood (book on the technical details of Ethereum)
+6. "Bitcoin for the Befuddled" by Chris Wilmer (a professor at Pitt) and Conrad Barski
+7. "Introducing Ethereum and Solidity" by Chris Dannen (book introducing Ethereum)
+8. "The Age of Cryptocurrency" - Good introduction to the world of Bitcoin and other cryptocurrencies in a "pop tech" form
+9. "How Money Got Free" - Similar book to "The Age of Cryptocurrency" but much more focused on Bitcoin specifically
+9. "Strength in Numbers" by Bill Laboon - A science-fiction novel exploring a world where cryptocurrency has eliminated traditional money
