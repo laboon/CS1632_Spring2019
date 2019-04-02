@@ -60,6 +60,12 @@ Each line consists of one block.  A block consists of the following elements, se
   * Determine that value modulo 65536
   * Return the resulting value as a string version of the number in base-16 (hexadecimal)
   * See the file `hash_walkthrough.txt` for detailed steps walking through a simple hash.
+  * Note that the hash includes the first four elements of the string including the pipe delimiters.  It does not include the final pipe delimiter since we haven't added the final data element yet.  For example, for the first block in `sample.txt`:
+
+```
+irb(main):022:0> calc_hash "0|0|SYSTEM>569274(100)|1553184699.650330000"
+=> "288d"
+```
 
 Transactions must be valid on a per-block basis.  This means that there may be a point mid-way through the block that an address has a negative balance, but every address should have a nonnegative balance (>= 0) by the end of the block.
 
@@ -81,7 +87,7 @@ There are many reasons that a blockchain will fail to be verified.  I expect you
 
 Upon discovering an error in verification, your program shall indicate which line contains the error and what the error is (e.g., invalid character, invalid address, timestamp did not increase, etc.)  If possible, it should indicate what it _expected_ the value to be.  This will not be possible for things like "unable to parse line" errors, but is for things such as bad previous hash.
 
-Otherwise, if the blockchain is entirely valid, your program should print out all addresses and their associated number of billcoins.  You must print these values out in ascending order, with the lowest number address first and the highest number address last (e.g., if you have addresses "000008", "100000", and "900000", they should be printed in that order, as 000008 is the lowest number, 100000 is in the middle, and 900000 is the highest).
+Otherwise, if the blockchain is entirely valid, your program should print out all addresses which contain billcoins, and their associated number of billcoins.  You should not print out any addresses that have 0 billcoins after the final block has transacted.  You must print these values out in ascending order of the address, with the lowest number address first and the highest number address last (e.g., if you have addresses "000008", "100000", and "900000", they should be printed in that order, as 000008 is the lowest number, 100000 is in the middle, and 900000 is the highest).
 
 See the `sample_output.txt` file in this directory for the correct output for a variety of different input files including errors.
 
