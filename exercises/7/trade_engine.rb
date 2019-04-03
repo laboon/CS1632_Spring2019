@@ -14,7 +14,11 @@ class TradeEngine
     stock = gets.chomp.downcase
     print 'Number share(s) > '
     num_shares = gets.chomp.to_i
-    @account.buy stock, num_shares
+    if num_shares > 0 && @market.prices.keys.include?(stock)
+      @account.buy stock, num_shares
+    else
+      puts "Can't buy '#{num_shares}' shares of '#{stock}'"
+    end
   end
 
   def sell_a_stock
@@ -25,9 +29,9 @@ class TradeEngine
     @account.sell stock, num_shares
   end
 
-  
+
   def iterate
-    
+
     @account.print
     @market.print
     print "Command (Buy, Sell, Quit) > "
@@ -53,11 +57,11 @@ class TradeEngine
   def run
     quit = false
     until (quit)
-      quit = iterate 
+      quit = iterate
     end
 
   end
-  
+
 end
 
 STARTING_MONEY = 10_000
@@ -65,5 +69,3 @@ m = Market.new
 a = Account.new STARTING_MONEY, m
 t = TradeEngine.new STARTING_MONEY, m, a
 t.run
-
-
