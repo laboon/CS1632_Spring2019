@@ -11,7 +11,7 @@ class TradeEngine
 
   def buy_a_stock
     print 'Stock ticker > '
-    stock = gets.chomp.downcase
+    stock = gets.chomp.upcase
     print 'Number share(s) > '
     num_shares = gets.chomp.to_i
     if num_shares > 0 && @market.prices.keys.include?(stock)
@@ -23,7 +23,7 @@ class TradeEngine
 
   def sell_a_stock
     print 'Stock ticker > '
-    stock = gets.chomp.downcase
+    stock = gets.chomp.upcase
     print 'Number share(s) > '
     num_shares = gets.chomp.to_i
     @account.sell stock, num_shares
