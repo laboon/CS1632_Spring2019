@@ -80,7 +80,7 @@ Your first thought might be that this is invalid, since 222222 gave 333333 3 bil
 There are many reasons that a blockchain will fail to be verified.  I expect you to test for these as well as think of any additional ways that an invalid blockchain may be detected.  Examples include:
 
 1. Hash or previous hash of a block is not correct
-2. Timestamp does not increase monotonically (make sure you understand the timestamp format!)
+2. Timestamp does not increase strictly (make sure you understand the timestamp format!)
 3. An address, at the end of any block, has a negative balance
 4. An invalid address (anything other than six decimal digits)
 5. An invalid character was found on a line (extra pipe (`|`), for example)
