@@ -14,7 +14,7 @@ The hash function for Billcoin is defined as taking the following value for each
 ((x**3000) + (x**x) - (3**x)) * (7**x)
 ```
 
-The result of this calculation for each character, and then summing up the results.  This sum is then taken modulo 65536, and displayed as up to four hexadecimal characters ("hexits").  That is, leading 0's in the final hash string should not be displayed - "aaa" and not "0aaa".  All hexadecimal digits shown should be in lowercase - "aaa" not "AAA".  For an example, see the file `hash_walkthrough.txt` in this directory.
+Get the result of this calculation for each character, and then sum up the results.  This sum is then taken modulo 65536, and displayed as up to four hexadecimal characters ("hexits").  That is, leading 0's in the final hash string should not be displayed - "aaa" and not "0aaa".  All hexadecimal digits shown should be in lowercase - "aaa" not "AAA".  For an example, see the file `hash_walkthrough.txt` in this directory.
 
 Input for hashes should be considered as a string, e.g., reading the value 555 is three characters -- ['5', '5', '5'] -- not the number 555.
 
