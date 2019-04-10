@@ -22,7 +22,7 @@ The midterm will cover everything since the last midterm as well as systems test
 * Performance targets, performance thresholds, KPIs - understand and be able to generate!
 * Measuring response time - methodologies
 * Understand different concepts of time: user, system, total, real
-* Measuring availability, concurrency, scalability, throughput
+* Measuring availability and throughput
 * Understand n 9's (e.g., 5 9s vs 6 9s)
 * Load testing - baseline, soak/stability, stress tests
 * Understand how to read flame graphs and optimize code based on them
