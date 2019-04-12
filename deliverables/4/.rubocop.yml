@@ -24,3 +24,6 @@ Style/Next:
 
 Layout/EndOfLine:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
