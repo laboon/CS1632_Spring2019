@@ -9,7 +9,7 @@ In this deliverable, you and a partner will write software to verify if a simple
 
 Under _no_ circumstances should the program crash or should the user see an exception or stack trace directly.  You should handle all edge cases that might be thrown at you, such as a non-existent file, no arguments, different failure modes, etc.
 
-The program shall accept one argument, which is the name of a file which should contain a valid Billcoin blockchain (see billcoin.md in this directory for the rules of Billcoin).  Your program will read in and either determine if it is valid (in which case you should print out all of the address which have billcoins and how many), or invalid (in which case you should print out what the error is).
+The program shall accept one argument, which is the name of a file which should contain a valid Billcoin blockchain (see billcoin.md in this directory for the rules of Billcoin).  Your program will read in and either determine if it is valid (in which case you should print out all of the addresses which have billcoins and how many), or invalid (in which case you should print out what the error is).
 
 The program shall be called `verifier.rb`.  Your repository shall be named D4.  This program must be written in Ruby and use minitest for the unit tests.  This program must use rubocop with the attached `.rubocop.yml` configuration and SimpleCov as described in class.
 
