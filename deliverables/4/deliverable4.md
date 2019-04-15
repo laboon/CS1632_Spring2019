@@ -19,6 +19,13 @@ You will use the flamegraph gem to determine execution "hot spots".
 
 You will use the `time` command (or Measure-Command in Windows) to determine total execution time.
 
+ENSURE THAT THE THE TA AND I ARE ADDED AS COLLABORATORS ON GITHUB!  My username is `laboon`.  The TA's username is:
+
+* M/W 11:00 - 12:15 : Tianyi Cui, GitHub username `TyaCUI`
+* M/W 1:00 - 2:15 : Akhil Yendluri, GitHub username `aky13`
+* T/H 9:30 - 10:45 : Xiaoyu Liang, GitHub username `Grade-CS1632`
+
+
 ## Format
 Every assignment should have a title page with:
 * The name of the students in the group and their GitHub usernames
