@@ -50,7 +50,7 @@ After that, it's calculating out the characters and thinking of words that have 
 All of the passwords are from famous Moby Dick quotes:
 
 1. **Wed 11:00** - "cannibal" - _"Better sleep with a sober cannibal than a drunken Christian."_
-2. **Wed 1:00** - "bridegroom" - _"For though I tried to move his arm - unlock his bridegroom clasp - yet, sleeping as he was, he still hugged me tightly, as though naught but death should part us twain."
+2. **Wed 1:00** - "bridegroom" - _"For though I tried to move his arm - unlock his bridegroom clasp - yet, sleeping as he was, he still hugged me tightly, as though naught but death should part us twain."_
 3. **Thu 9:30** - "commodores" - _"Delight is to him — a far, far upward, and inward delight — who against the proud gods and commodores of this earth, ever stands forth his own inexorable self."_
 
 ### Limitations
