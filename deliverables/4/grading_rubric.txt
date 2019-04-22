@@ -1,0 +1,27 @@
+
+Summary (10%):
+  * No typos or grammatical errors (only up to -4)
+  * Describe at least one issue (-8 if not)
+  * Answers which method took up most CPU time (-6 if not)
+
+Flame graphs included (5%):
+
+Final times included:
+  * -3 if times included, but no mean or median
+  * -3 if mean or median included, but not individual times
+  * -2 if only mean or median included
+
+Functionality (45%):
+
+* -5 if program is not called verifier.rb
+* -5 for each file not properly verified
+* Other errors possible
+
+Unit tests (25%):
+
+
+-----
+
+Submission issues (-10), contest or other adjustments:
+
+Total:                                                      _____ / 100
