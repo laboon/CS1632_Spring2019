@@ -102,7 +102,7 @@ class GraphTest < Minitest::Test
     # care.  It's just never called.
     def mocked_node.floobleblotz; 4; end
     # Expect id to be called and make a stub
-    # which just returns true, similar to:
+    # which just returns 1, similar to:
     # def mocked_node.id; 1; end
     mocked_node.expect :id, 1
     mocked_node.expect :id, 1
